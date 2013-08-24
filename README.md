@@ -1,4 +1,7 @@
 restfull-yii
 ============
 
-Yii 1.1.14 source which includes extension for writing restfull api. 
+Yii v1.1.14 source with Yii RESTful URL Manager
+
+courtesy:
+yii-restful: http://www.yiiframework.com/extension/yii-restful/
