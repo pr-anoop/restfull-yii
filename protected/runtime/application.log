@@ -1,0 +1,37 @@
+2013/08/24 13:33:49 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-restful.Likai.YiiRestful.RestfulManager" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(196): YiiBase::import('ext.yii-restful...', true)
+#1 C:\wamp\www\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\wamp\www\yii\framework\base\CApplication.php(522): CModule->getComponent('urlManager')
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii/site/
+---
+2013/08/24 13:40:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "12".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('12')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('12')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/12')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/site/12
+---
+2013/08/24 13:44:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/users
+---
+2013/08/24 13:44:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/users
+---
