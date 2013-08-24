@@ -35,3 +35,57 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/yii/users
 ---
+2013/08/24 14:05:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/users
+---
+2013/08/24 14:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/users
+---
+2013/08/24 14:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/users
+---
+2013/08/24 14:52:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "demo".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('demo')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('demo')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/demo')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/site/demo
+---
+2013/08/24 14:54:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('1')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('1')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/1/uu')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/site/1/uu
+---
+2013/08/24 14:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('1')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('1')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/1/uu/y')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/site/1/uu/y
+---

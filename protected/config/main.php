@@ -39,7 +39,7 @@ return array(
 			'class' => 'ext.yii-restful.src.Likai.YiiRestful.RestfulManager',
 			'urlFormat'=>'path',
 			'resources' => array(
-	            'site','users',
+	            'site'
 	        ),
 			/*'showScriptName'=>false,
 			'rules'=>array(

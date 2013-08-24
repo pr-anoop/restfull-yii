@@ -39,7 +39,7 @@ class SiteController extends Controller {
 	* Accepts DELETE method with ID
 	*/
 	public function actionDelete() {
-		
+
 		echo 'Delete';
 		exit;
 	}
