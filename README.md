@@ -1,8 +1,8 @@
-#RestFull-Yii v0.1
+#RESTful-Yii v0.1
 
 Yii v1.1.14 (Released on 11th Aug 2013) source with Yii RESTful URL Manager extension. 
 Make sure you are enabled the mod_rewrite module in your web server because I made the changes in the code for removing index.php from the url.
-######Upcomming version contain restFull api with nosql database (MongoDB).
+######Upcomming version contain RESTful api with nosql database (MongoDB).
 ##usage:
 ####Connect Database
 ```php
